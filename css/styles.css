@@ -54,6 +54,7 @@ section{
 .current{
     color:#2196F3;
 }
+
 .navigation{
     display: flex;
     margin-left: 93px;
@@ -144,9 +145,11 @@ a:hover.logo{color: #000; text-decoration: none;}
     font-weight: 300;
     line-height: 1.72;
 }
+
 .what-we-do{
 padding-top: 0;
 }
+
 .what-we-do-title{
     font-size: 36px;
     font-weight: 700;
