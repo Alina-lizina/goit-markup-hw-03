@@ -157,6 +157,9 @@ a:hover.logo{color: #000; text-decoration: none;}
     font-weight: 300;
     line-height: 1.72;
 }
+.what-we-do{
+    padding-top: 0;
+}
 
 .what-we-do-title{
     font-size: 36px;
@@ -164,7 +167,6 @@ a:hover.logo{color: #000; text-decoration: none;}
     text-align: center;
     color: #212121;
     margin-bottom: 50px;
-    margin-top: -94px;
 }
 
 .what-we-do-images{
