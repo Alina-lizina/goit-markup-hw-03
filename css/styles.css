@@ -1,6 +1,11 @@
-h1 h2 h3 h4 h5 h6 p{
+h1, h2, h3, h4, h5, h6, p, a, li{
     margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
 }
+
 
 ul{
     padding: 0;
@@ -10,6 +15,7 @@ ul{
 
 .container{
     width: 1200px;
+    box-sizing: border-box;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -70,8 +76,6 @@ header{
 
 .navigation-button{
     display: block; 
-    padding-top: 32px;
-    padding-bottom: 32px;
     font-weight: 500;
     color: #212121;
     margin-right: 50px;
